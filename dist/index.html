@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="SME loan intake and verification workspace">
+  <title>SME Loan Desk</title>
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <a class="brand" href="#applications"><span class="brand-icon" data-icon="brand"></span><span>Loan Desk<small>SME LENDING</small></span></a>
+    <div class="side-label">WORKSPACE</div>
+    <nav aria-label="Workspace">
+      <a href="#applications" data-nav="applications"><span data-icon="inbox"></span>Applications</a>
+      <a href="#apply" data-nav="apply"><span data-icon="file"></span>Applicant form</a>
+      <a href="#connections" data-nav="connections"><span data-icon="link"></span>Integrations</a>
+    </nav>
+    <div class="side-foot"><span class="avatar">LD</span><span>Loan Desk<small>Private workspace</small></span></div>
+  </aside>
+  <main>
+    <header class="top"><div class="crumb"><span data-icon="grid"></span><span id="breadcrumb">Applications</span></div><span class="environment"><i></i> Demo workspace</span></header>
+    <section class="frame" id="view"></section>
+  </main>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
